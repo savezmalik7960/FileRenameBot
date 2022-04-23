@@ -13,9 +13,10 @@ async def start(client,message):
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup([[
           InlineKeyboardButton("⭐️ Support Group ⭐️" ,url="https://t.me/malik_support_group"), 
-	  InlineKeyboardButton("♻️ Update channel ♻️", url="https://t.me/m_house_786")
+	  InlineKeyboardButton("♻️ Update channel ♻️", url="https://t.me/m_house786")
           ],[
-          InlineKeyboardButton("⚡️ Bot channel ⚡️", url="https://t.me/malik_bots")
+          InlineKeyboardButton("⚡️ Bot channel ⚡️", url="https://t.me/malik_bots"),
+          InlineKeyboardButton("☎️ contact me", url="https://t.me/sahid_malik")
           ],[
           InlineKeyboardButton("🙏 subscribe my YouTube channel 🙏", url="https://youtube.com/channel/UCPaHDqWf3D3w2nxb8p3sr4A")
           ]]
